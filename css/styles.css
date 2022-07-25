@@ -269,3 +269,14 @@ table td {
 .fondo-gradiente{
     background: linear-gradient(to top, blue, black);
 }
+
+.scale {
+    transition: all .2s ease-in-out;
+
+}
+
+
+.scale:hover {
+    transform: scale(1.1); 
+    margin: 20px;
+}
